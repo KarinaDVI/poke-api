@@ -53,7 +53,7 @@ function Api() {
             <div className="pokemon" key={index}>
               <img className="imagen" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} alt={`Pokemon ${id}`} />
               <p>id: {id}</p>
-              <h3 className="titulo">Nombre: {pokemon.name}</h3>
+              <h2 className="titulo">Nombre: {pokemon.name}</h2>
               <ApiAbs id={id} />
             </div>
           );

@@ -19,7 +19,7 @@ const ApiAbs = ({ id }) => {
 
   return (
     <div>
-      <h2>Abilities:</h2>
+      <h3>Abilities:</h3>
       <ul>
         {abilities.map((ability, index) => (
           <li key={index}>{ability.ability.name}</li>
